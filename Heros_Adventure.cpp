@@ -41,6 +41,7 @@ Introduction
 */
 void Hero::Introduction(){
 	std::cout << "Welcome Hero!" << std::endl;
+	// get Hero name if desired
 }
 
 /*
@@ -146,6 +147,7 @@ void Hero::Battle(){
 Clear inventory
 */
 void Hero::Robbery(){
+	sleep(TIME);
 	//choose a path - compare to random number 
 	std::cout << "\nYou were robbed of all of your possessions by a thief.";
 	inventory.clear();
